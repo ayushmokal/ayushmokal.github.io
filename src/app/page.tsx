@@ -75,7 +75,7 @@ export default function Portfolio() {
                   <CardDescription>A brief description of Project One</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <img
+                  <image
                     alt="Project One"
                     className="w-full h-48 object-cover rounded-lg"
                     height="200"
@@ -99,7 +99,7 @@ export default function Portfolio() {
                   <CardDescription>A brief description of Project Two</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <img
+                  <image
                     alt="Project Two"
                     className="w-full h-48 object-cover rounded-lg"
                     height="200"
@@ -123,7 +123,7 @@ export default function Portfolio() {
                   <CardDescription>A brief description of Project Three</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <img
+                  <image
                     alt="Project Three"
                     className="w-full h-48 object-cover rounded-lg"
                     height="200"
@@ -260,7 +260,7 @@ export default function Portfolio() {
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">About Me</h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-              I'm a passionate web developer with a keen eye for design. With years of experience in creating
+              Iam a passionate web developer with a keen eye for design. With years of experience in creating
               responsive and user-friendly websites, I strive to bring ideas to life through clean code and
               intuitive interfaces.
             </p>
