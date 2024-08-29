@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Badge } from "@/components/ui/badge"
 import { Github, Linkedin, Mail, Twitter } from "lucide-react"
 import Link from "next/link"
+import Image from 'next/image'
 
 export default function Portfolio() {
   return (
@@ -75,16 +76,13 @@ export default function Portfolio() {
                   <CardDescription>A brief description of Project One</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <image
+                  <Image
                     alt="Project One"
                     className="w-full h-48 object-cover rounded-lg"
-                    height="200"
-                    src="https://framerusercontent.com/images/pAMdyx4slfGhTe5wRTVPXG6YPN8.png width={500} height={300}"
-                    style={{
-                      aspectRatio: "300/200",
-                      objectFit: "cover",
-                    }}
-                    width="300"
+                    height={200}
+                    width={300}
+                    src="https://framerusercontent.com/images/pAMdyx4slfGhTe5wRTVPXG6YPN8.png"
+                    style={{ objectFit: "cover" }}
                   />
                 </CardContent>
                 <CardFooter>
@@ -99,17 +97,14 @@ export default function Portfolio() {
                   <CardDescription>A brief description of Project Two</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <image
-                    alt="Project Two"
-                    className="w-full h-48 object-cover rounded-lg"
-                    height="200"
-                    src="https://framerusercontent.com/images/pAMdyx4slfGhTe5wRTVPXG6YPN8.png width={500} height={300}"
-                    style={{
-                      aspectRatio: "300/200",
-                      objectFit: "cover",
-                    }}
-                    width="300"
-                  />
+                <Image
+  alt="Project Two"
+  className="w-full h-48 object-cover rounded-lg"
+  height={200}
+  width={300}
+  src="https://framerusercontent.com/images/pAMdyx4slfGhTe5wRTVPXG6YPN8.png"
+  style={{ objectFit: "cover" }}
+/>
                 </CardContent>
                 <CardFooter>
                   <Button asChild>
@@ -123,16 +118,15 @@ export default function Portfolio() {
                   <CardDescription>A brief description of Project Three</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <image
+                <Image
                     alt="Project Three"
                     className="w-full h-48 object-cover rounded-lg"
-                    height="200"
-                    src="https://framerusercontent.com/images/pAMdyx4slfGhTe5wRTVPXG6YPN8.png width={500} height={300}"
+                    height={200}
+                    width={300}
+                    src="https://framerusercontent.com/images/pAMdyx4slfGhTe5wRTVPXG6YPN8.png"
                     style={{
-                      aspectRatio: "300/200",
                       objectFit: "cover",
                     }}
-                    width="300"
                   />
                 </CardContent>
                 <CardFooter>
