@@ -79,7 +79,7 @@ export default function Portfolio() {
                     alt="Project One"
                     className="w-full h-48 object-cover rounded-lg"
                     height="200"
-                    src="/placeholder.svg?height=200&width=300"
+                    src="https://framerusercontent.com/images/pAMdyx4slfGhTe5wRTVPXG6YPN8.png width={500} height={300}"
                     style={{
                       aspectRatio: "300/200",
                       objectFit: "cover",
@@ -103,7 +103,7 @@ export default function Portfolio() {
                     alt="Project Two"
                     className="w-full h-48 object-cover rounded-lg"
                     height="200"
-                    src="/placeholder.svg?height=200&width=300"
+                    src="https://framerusercontent.com/images/pAMdyx4slfGhTe5wRTVPXG6YPN8.png width={500} height={300}"
                     style={{
                       aspectRatio: "300/200",
                       objectFit: "cover",
@@ -127,7 +127,7 @@ export default function Portfolio() {
                     alt="Project Three"
                     className="w-full h-48 object-cover rounded-lg"
                     height="200"
-                    src="/placeholder.svg?height=200&width=300"
+                    src="https://framerusercontent.com/images/pAMdyx4slfGhTe5wRTVPXG6YPN8.png width={500} height={300}"
                     style={{
                       aspectRatio: "300/200",
                       objectFit: "cover",
